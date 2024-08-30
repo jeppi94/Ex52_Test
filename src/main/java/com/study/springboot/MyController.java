@@ -26,5 +26,10 @@ public class MyController {
     public @ResponseBody String woogyuhwan(){
     	return "방황을 하던 중 윗사람이 돕는구나. 외출은 삼가라.";
     }
+    
+    @RequestMapping("/dmswl25152")
+    public @ResponseBody String dmswlTest2(){
+        return "김은지 입니다(2).";
+    }
 
 }
