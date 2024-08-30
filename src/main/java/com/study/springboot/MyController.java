@@ -22,4 +22,9 @@ public class MyController {
         return "김은지 입니다.";
     }
 
+    @RequestMapping("/daily")
+    public @ResponseBody String dailyTest(){
+        return "daily page";
+    }
+
 }
