@@ -16,5 +16,10 @@ public class MyController {
     public String test1() {
         return "test1";          // 실제 호출 될 /WEB-INF/views/test1.jsp       
     }
+    
+    @RequestMapping("/dmswl2515")
+    public @ResponseBody String dmswlTest(){
+        return "김은지 입니다.";
+    }
 
 }
