@@ -21,6 +21,11 @@ public class MyController {
     public @ResponseBody String dmswlTest(){
         return "김은지 입니다.";
     }
+    
+    @RequestMapping("/dmswl25152")
+    public @ResponseBody String dmswlTest2(){
+        return "김은지 입니다(2).";
+    }
 
     @RequestMapping("/daily")
     public @ResponseBody String dailyTest(){
